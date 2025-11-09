@@ -46,10 +46,11 @@ A clean dataset ensures accurate downstream analysis. Most drugs had multiple si
 
 - Created a **co-occurrence matrix** of side effects using pairwise frequency counts  
 - Visualized relationships using a **heatmap**
+- View my notebook with detailed steps here:
+[Sideeffect Co-0ccurrence Heatmap](ExploratoryDataAnalysis.ipynb)
 
 ### Visualization
-Example file:  
-`images/side_effect_co-occurrence_heatmap.png`
+![Visulization for co-occurrence heatmap](images/side_effect_co-occurrence_heatmap.png)
 
 ### Insight
 - The heatmap reveals **clusters of side effects** that frequently appear together.  
@@ -75,9 +76,11 @@ for idx, row in df.iterrows():
  ```
 ## Visualization
 
-
-The initial graph appeared too dense, so we refined it by filtering to the **top-degree drugs** or using **spring layout** for clarity.  
-This made the structure interpretable, showing major hubs of interconnected drugs.
+- The initial graph appeared too dense, so we refined it by filtering to the **top-degree drugs** or using **spring layout** for clarity.  
+- This made the structure interpretable, showing major hubs of interconnected drugs.
+- View my notebook with detailed steps here
+[Advance Data Analysis](AdvanceDataAnalysis.ipynb)
+![Visualization of Drug Realation Network](images/relative_drugs_network.png)
 
 ### Insight
 - Central nodes represent **commonly referenced drugs** — possibly those with wide therapeutic use or many substitutes.  
@@ -98,6 +101,9 @@ Insight
 - Depression & Anxiety share overlapping side effects: fatigue, dizziness, insomnia.
 - Pain-related conditions had higher occurrence of nausea, constipation, and drowsiness.
 - Rare conditions (e.g., autoimmune disorders) had unique side effects, indicating targeted treatments.
+
+### Visualization
+![Visualization for Drugs Sideeffects](images/drug_side_effect.png)
 
 ---
 ### Step 6: Drug Clustering Based on Side-Effect Similarity
