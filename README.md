@@ -129,17 +129,16 @@ images/drug_clusters_tsne.png
 ---
 ### Step 7: Key Takeaways & Insights
 ---
-
-🔹 Data Relationships
+## Data Relationships
 - Drugs often share multiple side effects, suggesting overlapping biological mechanisms.
 -  side effects co-occur frequently, forming natural clusters of symptoms.
 
-🔹 Visualization Learnings
+## Visualization Learnings
 - The heatmap shows co-occurring side effects.
 - The network graph reveals therapeutic connectivity.
 - The t-SNE cluster plot shows how drugs group by biological similarity.
 
-🔹 Real-World Application
+## Real-World Application
 - Supports drug repurposing by identifying similar effect profiles.
 - Helps doctors predict secondary effects of related drugs.
 - Useful for pharmaceutical R&D in drug classification and patient safety analysis.
