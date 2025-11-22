@@ -17,7 +17,7 @@ It combines **Exploratory Data Analysis (EDA)**, **Network Analysis**, and **Mac
 
 ---
 
-## 🔍 Step 1: Data Loading and Cleaning
+## Step 1: Data Loading and Cleaning
 
 - Loaded the dataset `drugs_side_effects_drugs_com.csv`
 - Removed duplicates and missing values
